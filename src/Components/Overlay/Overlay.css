@@ -1,0 +1,49 @@
+.icon-group-container {
+  margin-right: 14px;
+}
+
+.orange-circle-container {
+  margin-right: 10px;
+  position: relative;
+}
+
+.orange-circle-wrapper {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+
+.orange-circle {
+  width: 50px;
+  height: 50px;
+}
+
+.icon-group {
+  width: 35px;
+  height: 35px;
+}
+
+.join-us-container {
+  display: flex;
+  align-items: center;
+}
+
+.heart-icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.join-us-button {
+  background-color: white;
+  border: 2px solid #2b2b2b;
+  border-radius: 55px 55px 55px 55px;
+  color: #2b2b2b;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 26px;
+  text-transform: uppercase;
+  width: 140px;
+  margin-left: 20px;
+}
