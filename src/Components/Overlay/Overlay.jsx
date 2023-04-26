@@ -6,10 +6,6 @@ function Overlay() {
 
   return (
     <div className="overlay-container">
-      <div className="icon-group-container">
-        <img className="icon-group" src="/assets/groupthree.svg" alt="Icon 3" />
-      </div>
-
       <div className="orange-circle-container">
         <div className="orange-circle-wrapper">
           <img

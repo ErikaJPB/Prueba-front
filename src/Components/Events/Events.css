@@ -67,3 +67,29 @@
   font-family: "Poppins", sans-serif;
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 480px) {
+  .events-title {
+    font-size: 30pt;
+    margin: 1rem 0;
+  }
+
+  .photos-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .event-pic {
+    border-radius: 21px;
+  }
+
+  .event-button {
+    font-size: 12pt;
+    padding: 0.8rem 1.6rem;
+  }
+
+  .event-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}
