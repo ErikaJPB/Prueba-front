@@ -17,6 +17,16 @@ function Overlay() {
             src="/assets/orangeoval.svg"
             alt="Orange Circle"
           />
+
+          <div className="overlay-comment-container">
+            <div className="icon-comment-container">
+              <img
+                className="icon-comment "
+                src="/assets/comment.svg"
+                alt="comment"
+              />
+            </div>
+          </div>
         </div>
       </div>
 
@@ -26,7 +36,7 @@ function Overlay() {
           onClick={() => setButtonText("Yay!")}
         >
           <img className="heart-icon" src="/assets/favorite.svg" alt="Heart" />
-          Join Us
+          {buttonText}
         </button>
       </div>
     </div>

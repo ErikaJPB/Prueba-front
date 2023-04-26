@@ -10,7 +10,7 @@
   width: 100%;
   z-index: 1;
   box-sizing: border-box;
-  padding: 5px;
+  padding: 15pt;
   opacity: 86%;
 }
 
@@ -20,13 +20,6 @@
   filter: brightness(0) invert(1);
   margin-left: 100px;
   opacity: 100%;
-}
-
-.brand-name {
-  font-size: 28px;
-  font-weight: 700;
-  color: #ffffff;
-  margin-left: 10px;
 }
 
 .nav-links {
@@ -45,8 +38,7 @@
 
 .nav-link a {
   color: #ffffff;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 18pt;
   text-transform: uppercase;
   text-decoration: none;
   position: relative;
@@ -55,6 +47,7 @@
   white-space: nowrap;
   opacity: 100%;
   font-family: "Red Hat Display";
+  font-weight: bold;
 }
 
 .nav-link a:before {

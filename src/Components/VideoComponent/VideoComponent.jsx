@@ -1,5 +1,6 @@
 import "./VideoComponent.css";
-import video from "/public/assets/final2.mp4";
+import video from "../../../public/assets/final2.mp4";
+import Overlay from "../Overlay/Overlay";
 
 function VideoComponent() {
   return (
@@ -12,6 +13,7 @@ function VideoComponent() {
         autoPlay
         playsInline
       ></video>
+      <Overlay />
     </div>
   );
 }

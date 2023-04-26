@@ -1,12 +1,16 @@
 import "./Home.css";
 import VideoComponent from "../VideoComponent/VideoComponent";
-import Overlay from "../Overlay/Overlay";
+import Events from "../Events/Events";
+import TheCrew from "../TheCrew/TheCrew";
 
 function Home() {
   return (
     <div>
       <VideoComponent />
-      <Overlay />
+      <div style={{ position: "relative" }}>
+        <Events style={{ position: "absolute", top: "500px" }} />
+        <TheCrew style={{ position: "absolute", top: "500px" }} />
+      </div>
     </div>
   );
 }
