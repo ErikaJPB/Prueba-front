@@ -25,8 +25,16 @@ function TheCrew() {
           <button className="crew-button">Learn More</button>
         </div>
         <div className="image-container">
-          <img src="/assets/eventpic1.jpg" alt="pic1" className="pic-class" />
-          <img src="/assets/eventpic2.jpg" alt="pic2" className="pic-class" />
+          <img
+            src="/src/assetssrc/eventpic1.jpg"
+            alt="pic1"
+            className="pic-class"
+          />
+          <img
+            src="/src/assetssrc/eventpic2.jpg"
+            alt="pic2"
+            className="pic-class"
+          />
         </div>
 
         <div className="box-container">
