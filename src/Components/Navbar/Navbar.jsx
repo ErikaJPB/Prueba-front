@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import "./Navbar.css";
-import logo from "/assets/newmanclublogo.svg";
+import logo from "/src/assetssrc/newmanclublogo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { useState } from "react";

@@ -39,19 +39,19 @@ function TheCrew() {
 
         <div className="box-container">
           <div className="box1">
-            <img src="assets/smileface.svg" alt="smileface" />
+            <img src="/src/assetssrc/smileface.svg" alt="smileface" />
             <span className="number-box">165</span>
             <span className="box-description">Happy freshman members</span>
           </div>
 
           <div className="box2">
-            <img src="assets/duo.svg" alt="duo" />
+            <img src="/src/assetssrc/duo.svg" alt="duo" />
             <span className="number-box">13</span>
             <span className="box-description">Wise Senior members</span>
           </div>
 
           <div className="box3">
-            <img src="assets/group.svg" alt="group" />
+            <img src="/src/assetssrc/group.svg" alt="group" />
             <span className="number-box">173</span>
             <span className="box-description">The whole crew</span>
           </div>
