@@ -18,4 +18,4 @@ Para ejecutar este proyecto, necesitarás tener instalado en tu computadora:
 
 1. Una vez que hayas instalado las dependencias, puedes ejecutar el proyecto usando el siguiente comando:
 `npm run dev`
-2. Abre el navegador y abre una pagina en http://127.0.0.1:5173/
+2. Abre el navegador y abre una pagina en `http://127.0.0.1:5173/`
