@@ -1,4 +1,9 @@
 import "./TheCrew.css";
+import eventpic1 from "/src/assetssrc/eventpic1.jpg";
+import eventpic2 from "/src/assetssrc/eventpic2.jpg";
+import smileface from "/src/assetssrc/smileface.svg";
+import duo from "/src/assetssrc/duo.svg";
+import group from "/src/assetssrc/group.svg";
 
 function TheCrew() {
   return (
@@ -25,33 +30,25 @@ function TheCrew() {
           <button className="crew-button">Learn More</button>
         </div>
         <div className="image-container">
-          <img
-            src="/src/assetssrc/eventpic1.jpg"
-            alt="pic1"
-            className="pic-class"
-          />
-          <img
-            src="/src/assetssrc/eventpic2.jpg"
-            alt="pic2"
-            className="pic-class"
-          />
+          <img src={eventpic1} alt="pic1" className="pic-class" />
+          <img src={eventpic2} alt="pic2" className="pic-class" />
         </div>
 
         <div className="box-container">
           <div className="box1">
-            <img src="/src/assetssrc/smileface.svg" alt="smileface" />
+            <img src={smileface} alt="smileface" />
             <span className="number-box">165</span>
             <span className="box-description">Happy freshman members</span>
           </div>
 
           <div className="box2">
-            <img src="/src/assetssrc/duo.svg" alt="duo" />
+            <img src={duo} />
             <span className="number-box">13</span>
             <span className="box-description">Wise Senior members</span>
           </div>
 
           <div className="box3">
-            <img src="/src/assetssrc/group.svg" alt="group" />
+            <img src={group} alt="group" />
             <span className="number-box">173</span>
             <span className="box-description">The whole crew</span>
           </div>
