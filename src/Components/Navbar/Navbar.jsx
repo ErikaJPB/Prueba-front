@@ -37,7 +37,9 @@ function Navbar() {
           <a href="#">Contact</a>
         </li>
         <li className="nav-link">
-          <span className="parish-name">Maria Reina Parish</span>
+          <div className="parish-name-container">
+            <span className="parish-name">Maria Reina Parish</span>
+          </div>
         </li>
         <li className="nav-link social-links">
           <a href="#">

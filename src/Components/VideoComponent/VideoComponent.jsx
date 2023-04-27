@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import video from "../../../public/assets/final2.mp4";
-import video1 from "../../../public/assets/final.mp4";
+import video from "../../assetssrc/final2.mp4";
+import video1 from "../../assetssrc/final.mp4";
 import Overlay from "../Overlay/Overlay";
 import "./VideoComponent.css";
 

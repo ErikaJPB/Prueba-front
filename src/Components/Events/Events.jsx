@@ -3,27 +3,27 @@ import "./Events.css";
 function Events() {
   return (
     <div className="events-container">
-      <img src="/assets/orangelogo.svg" alt="orangelogo" />
+      <img src="/src/assetssrc/orangelogo.svg" alt="orangelogo" />
       <h1 className="events-title">Events</h1>
       <div className="photos-container-wrapper">
         <div className="photos-container">
           <img
-            src="/assets/eventpic1.jpg"
+            src="/src/assetssrc/eventpic1.jpg"
             alt="eventpic1"
             className="event-pic"
           />
           <img
-            src="/assets/eventpic2.jpg"
+            src="/src/assetssrc/eventpic2.jpg"
             alt="eventpic2"
             className="event-pic"
           />
           <img
-            src="/assets/eventpic3.jpg"
+            src="/src/assetssrc/eventpic3.jpg"
             alt="eventpic3"
             className="event-pic"
           />
           <img
-            src="/assets/eventpic4.jpg"
+            src="/src/assetssrc/eventpic4.jpg"
             alt="eventpic4"
             className="event-pic"
           />
